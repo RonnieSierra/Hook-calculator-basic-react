@@ -1,0 +1,35 @@
+.Boton {
+    background: #f8d229;
+    display: flex;
+    border: 2px outset rgb(255, 255, 255);
+    border-radius: 5px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 3);
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    min-width: 25%;
+}
+
+.Boton[data-size="2"] {
+    width:  50%;
+}
+.Boton[data-size="3"] {
+    width:  100%;
+}
+
+.Boton[data-size="1/4"] {
+    width:  25%;
+}
+.Boton[data-value="null"] {
+    background: #ffffff;
+    pointer-events: none;
+}
+
+.Boton:hover {
+    background: #ffface;
+    box-shadow: 2px 2px 2px 2px rgb(201, 201, 201) inset;
+    cursor: default;
+}

@@ -1,0 +1,12 @@
+.Pantalla {
+    background: #535353;
+    padding: 0 25px;
+    border: 2px outset rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20%;
+    color: #d8f0f0;
+    font-size: 2em;
+}
